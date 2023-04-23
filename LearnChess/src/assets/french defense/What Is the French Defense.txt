@@ -1,0 +1,15 @@
+What Is the French Defense?
+
+To start: White moves this pawn forward
+
+Black responds by moving this pawn forward
+
+White then moves d2 pawn to d4
+
+And Black replies by moving d7 pawn to d5
+
+and that is the french defense
+
+The idea behind the French Defense is that Black plays e6 to prepare to advance d7-d5, in order to immediately challenge White’s pawn on e4.
+
+https://simplifychess.com/french-defense/
