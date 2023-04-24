@@ -7,9 +7,11 @@ import { HomeComponent } from './Components/home/home.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { OpeningComponent } from './Components/opening/opening.component';
 import { StrategyComponent } from './Components/strategy/strategy.component';
+import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './Components/about/about.component';
 import { LoginComponent } from './Components/login/login.component';
 import { SignupComponent } from './Components/signup/signup.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SignupComponent } from './Components/signup/signup.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    MDBBootstrapModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mx-auto my-5" *ngFor="let opening of opening">
+      <!-- card -->
+      <mdb-card>
+        <mdb-card-img [src]="opening.image1"></mdb-card-img>
+        <mdb-card-body>
+          <mdb-card-title>
+            <h6>{{opening.name}}</h6>
+          </mdb-card-title>
+
+          <mdb-card-text>
+
+          </mdb-card-text>
+
+          <!-- button for modal -->
+          <button class="btn btn-outline-primary" (click)="onselect(opening)" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button>
+        </mdb-card-body>
+      </mdb-card>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" *ngIf="selectedOpening">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Name: {{selectedOpening.name}}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- modal body -->
+              <div class="modal-body">
+                <h6>Description: {{selectedOpening.description}}</h6>
+                <img src={{selectedOpening.image1}} class="img-fluid">
+              </div>
+              <!-- modal footer -->
+              <div class="modal-footer">
+                  <!-- close button for modal -->
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+
+
+
 <!-- bootstrap image gallery 1 -->
+<!-- 
 <div class="container-fluid">
 
     <div class="jumbotron">
@@ -81,3 +127,4 @@
       </div>
     </div>
   </div>
+ -->

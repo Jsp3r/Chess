@@ -1,5 +1,4 @@
 export interface Opening{
-    id: number;
     name: string;
     description: string;
     image1: string;
