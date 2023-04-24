@@ -1,10 +1,28 @@
-
+.dashcode{
+    position: absolute;
+    top: 30%;
+}
 .row{
-padding-top: 10%;
 margin-left: 10%;
 margin-right: 10%;
+
 }
 .text{
     text-align: center;
     padding-top: 10%;
+}
+
+.container{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+p{
+    text-align: center;
 }
