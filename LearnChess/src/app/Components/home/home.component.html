@@ -1,14 +1,63 @@
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid dashcode">
+
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 text">
-        <h2>TITLE</h2>
-        <p>I Don't Know What To Put Here</p>
+        <h2>Learn Chess Opening</h2>
+        <p>Learn chess the basic chess openings...</p>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-6 image" >
         <img src="./assets/image1.jpg" alt="responsive webite" class="img-fluid">
       </div>
     </div>
+
+    <!-- text tittle -->
+
+
+<!-- card with container -->
+<div class="container">
+    <div class="row">
+      <h2>Start Learning</h2>
+        <!-- card 1 -->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+            <a [routerLink]="['/list']">
+                <img src="./assets/homepageimg/E4.PNG" class="card-img-top" alt="E4 Opening"/>
+             </a>
+            <div>
+              <p class="card-text" >E4 Opening</p>
+            </div>
+          </div>
+      </div>
+        <!-- card 2 -->
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+            <a [routerLink]="['/list']">
+                <img src="./assets/homepageimg/d4.PNG" class="card-img-top" alt="Shorts"/>
+             </a>
+            <div>
+              <p class="card-text" >D4 opening</p>
+            </div>
+          </div>
+      </div>
+        <!-- card 3 -->
+      
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+            <a [routerLink]="['/list']">
+                <img src="./assets/homepageimg/other.PNG" class="card-img-top" alt="T-Shirt"/>
+             </a>
+            <div>
+              <p class="card-text" >Other Opening</p>
+            </div>
+          </div>
+      </div>
+     
+    </div>
+</div>
   </div>
+
+
+  
 </body>
