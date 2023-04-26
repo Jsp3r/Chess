@@ -13,6 +13,9 @@ import { LoginComponent } from './Components/login/login.component';
 import { SignupComponent } from './Components/signup/signup.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FooterComponent } from './Components/footer/footer.component';
+import { E4openingComponent } from './Components/e4opening/e4opening.component';
+import { D4openingComponent } from './Components/d4opening/d4opening.component';
+import { OthersopeningComponent } from './Components/othersopening/othersopening.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { FooterComponent } from './Components/footer/footer.component';
     AboutComponent,
     LoginComponent,
     SignupComponent,
-    FooterComponent
+    FooterComponent,
+    E4openingComponent,
+    D4openingComponent,
+    OthersopeningComponent
   ],
   imports: [
     BrowserModule,
