@@ -1,1 +1,68 @@
-<p>othersopening works!</p>
+<div class="container">
+
+    <!--nav tablist  -->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" id="pills-home-tab" data-toggle="pill" routerLink="/opening" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" routerLink="/e4" role="tab" aria-controls="pills-e4" aria-selected="false">E4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/d4" role="tab" aria-controls="pills-d4" aria-selected="false">D4</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/others" role="tab" aria-controls="pills-others" aria-selected="false">Others</a>
+        </li>
+      </ul>
+      <!-- tab content -->
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"></div>
+        <div class="tab-pane fade" id="pills-e4" role="tabpanel" aria-labelledby="pills-e4-tab"></div>
+        <div class="tab-pane fade" id="pills-d4" role="tabpanel" aria-labelledby="pills-d4-tab"></div>
+        <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"></div>
+      </div>
+
+<!-- row -->
+<div class="row">
+    <div class="col-md-3 mx-auto my-5" *ngFor="let others of others">
+      <!-- card -->
+      <mdb-card>
+        <mdb-card-img [src]="others.image1"></mdb-card-img>
+        <mdb-card-body>
+          <mdb-card-title>
+            <h6>{{others.name}}</h6>
+          </mdb-card-title>
+  
+          <mdb-card-text>
+  
+          </mdb-card-text>
+  
+          <!-- button for modal -->
+          <button class="btn btn-outline-primary" (click)="onselect(others)" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button>
+        </mdb-card-body>
+      </mdb-card>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" *ngIf="selectedOthers">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Name: {{selectedOthers.name}}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- modal body -->
+              <div class="modal-body">
+                <h6>Description: {{selectedOthers.description}}</h6>
+                <img src={{selectedOthers.image1}} class="img-fluid">
+              </div>
+              <!-- modal footer -->
+              <div class="modal-footer">
+                  <!-- close button for modal -->
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
