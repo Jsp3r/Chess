@@ -1,0 +1,24 @@
+#about-section {
+    background: rgba(32, 33, 36, 0.1);
+    position: relative;
+}
+
+.blockabout {
+    padding: 20px;
+    background: white;
+}
+
+.blockabout-inner {
+    padding: 30px;
+    border: 1px solid rgba(32, 33, 36, 0.1);
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.aboutimg{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}

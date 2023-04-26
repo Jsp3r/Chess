@@ -1,6 +1,6 @@
 .dashcode{
-    position: absolute;
-    top: 30%;
+    position: relative;
+    margin-top: 10%;
 }
 .row{
 margin-left: 10%;
@@ -13,7 +13,7 @@ margin-right: 10%;
 }
 
 .container{
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
