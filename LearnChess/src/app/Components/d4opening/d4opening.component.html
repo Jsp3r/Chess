@@ -38,31 +38,53 @@
   
           </mdb-card-text>
   
-          <!-- button for modal -->
-          <button class="btn btn-outline-primary" (click)="onselect(d4)" data-bs-toggle="modal" data-bs-target="#exampleModal">View</button>
-        </mdb-card-body>
-      </mdb-card>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content" *ngIf="selectedD4">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Name: {{selectedD4.name}}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <!-- modal body -->
-              <div class="modal-body">
-                <h6>Description: {{selectedD4.description}}</h6>
-                <img src={{selectedD4.image1}} class="img-fluid">
-              </div>
-              <!-- modal footer -->
-              <div class="modal-footer">
-                  <!-- close button for modal -->
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-secondary" (click)="onselect(d4)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          View
+          </button>
+  
+      </mdb-card-body>
+    </mdb-card>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" *ngIf="selectedD4">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{d4.name}}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          <div class="modal-body">
+        
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image1}} class="img-fluid">
+
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image1}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image1}} class="img-fluid">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
 </div>

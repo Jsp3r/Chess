@@ -1,0 +1,8 @@
+/* button style */
+button{
+    color: Blue;
+}
+/* text alingment */
+.accordion-body{
+    text-align: justify;
+}
