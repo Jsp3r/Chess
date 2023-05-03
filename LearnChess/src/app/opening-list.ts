@@ -23,7 +23,7 @@ export const OPENING: Opening[]=[
     {
         name: 'Caro-kann',
         description: ' ',
-        image0: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
+        image0: './assets/E4 opening/caro-kann/ckblack_mv5.jpg',
         image1: './assets/E4 opening/Caro-kann/ckstartng_position.jpg',
         image2: './assets/E4 opening/Caro-kann/ckwhite_mv1.jpg',
         image3: './assets/E4 opening/Caro-kann/ckblack_mv1.jpg',
@@ -41,7 +41,7 @@ export const OPENING: Opening[]=[
     {
         name: 'French Defense',
         description: ' ',
-        image0: './assets/E4 opening/French Defense/Fblackmv5.jpg',
+        image0: './assets/E4 opening/french defense/Fblackmv5.jpg',
         image1: './assets/E4 opening/French Defense/fstartng_position.jpg',
         image2: './assets/E4 opening/French Defense/Fwhitemv1.jpg',
         image3: './assets/E4 opening/French Defense/Fblackmv1.jpg',
