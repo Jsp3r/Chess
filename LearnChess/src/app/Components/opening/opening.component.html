@@ -28,7 +28,7 @@
     <div class="col-md-3 mx-auto my-5" *ngFor="let opening of opening">
       <!-- card -->
       <mdb-card>
-        <mdb-card-img [src]="opening.image1"></mdb-card-img>
+        <mdb-card-img [src]="opening.image0"></mdb-card-img>
         <mdb-card-body>
           <mdb-card-title>
             <h6>{{opening.name}}</h6>
@@ -51,19 +51,13 @@
         <div class="modal-dialog">
           <div class="modal-content" *ngIf="selectedOpening">
             <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{opening.name}}</h1>
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedOpening.name}}</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
           <div class="modal-body">
         
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <!--  
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h6>Description: {{selectedOpening.description}}</h6>
@@ -72,11 +66,47 @@
             </div>
             <div class="carousel-item">
               <h6>Description: {{selectedOpening.description}}</h6>
-              <img src={{selectedOpening.image1}} class="img-fluid">
+              <img src={{selectedOpening.image2}} class="img-fluid">
             </div>
             <div class="carousel-item">
               <h6>Description: {{selectedOpening.description}}</h6>
-              <img src={{selectedOpening.image1}} class="img-fluid">
+              <img src={{selectedOpening.image3}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image4}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image5}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image6}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image7}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image8}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image9}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image10}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image11}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedOpening.description}}</h6>
+              <img src={{selectedOpening.image12}} class="img-fluid">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -28,7 +28,7 @@
     <div class="col-md-3 mx-auto my-5" *ngFor="let d4 of d4">
       <!-- card -->
       <mdb-card>
-        <mdb-card-img [src]="d4.image1"></mdb-card-img>
+        <mdb-card-img [src]="d4.image0"></mdb-card-img>
         <mdb-card-body>
           <mdb-card-title>
             <h6>{{d4.name}}</h6>
@@ -50,13 +50,13 @@
         <div class="modal-dialog">
           <div class="modal-content" *ngIf="selectedD4">
             <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{d4.name}}</h1>
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedD4.name}}</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
           <div class="modal-body">
         
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h6>Description: {{selectedD4.description}}</h6>
@@ -65,11 +65,47 @@
             </div>
             <div class="carousel-item">
               <h6>Description: {{selectedD4.description}}</h6>
-              <img src={{selectedD4.image1}} class="img-fluid">
+              <img src={{selectedD4.image2}} class="img-fluid">
             </div>
             <div class="carousel-item">
               <h6>Description: {{selectedD4.description}}</h6>
-              <img src={{selectedD4.image1}} class="img-fluid">
+              <img src={{selectedD4.image3}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image4}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image5}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image6}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image7}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image8}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image9}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image10}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image11}} class="img-fluid">
+            </div>
+            <div class="carousel-item">
+              <h6>Description: {{selectedD4.description}}</h6>
+              <img src={{selectedD4.image12}} class="img-fluid">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
