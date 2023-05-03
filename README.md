@@ -10,4 +10,4 @@ Navbar - completed
 Home Page - completed
 Opening - template with assets but has no description yet
 Strategy - completed template with data
-About - template
+About - completed
