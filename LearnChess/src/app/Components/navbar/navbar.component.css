@@ -5,18 +5,18 @@
 .navbar-nav{
     margin-block: 0rem;
 }
-/* list */
+/* list spacing*/
 .navbar-nav >li{
     padding: 1rem;
 }
-/* logo and letter */
+/* logo and letter style*/
  a{
     text-decoration: none;
     color: black;
     padding: 0rem 0rem;
     font-size: 2.2ch;
 }
-/* letter */
+/* letter style*/
 ul > li > a{
     color: black;
     text-decoration: none;
