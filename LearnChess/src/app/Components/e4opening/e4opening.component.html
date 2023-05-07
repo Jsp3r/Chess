@@ -1,3 +1,4 @@
+<!-- container -->
 <div class="container">
 
 <!--nav tablist  -->
@@ -45,80 +46,99 @@
   
       </mdb-card-body>
     </mdb-card>
-              <!-- Modal -->
+      <!-- Modal -->
       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
+          <!-- modal content -->
           <div class="modal-content" *ngIf="selectedE4">
+            <!-- modal header -->
             <div class="modal-header">
             <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedE4.name}}</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
+          <!-- modal body -->
           <div class="modal-body">
         
         
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
           <div class="carousel-inner">
+            <!-- carousel item -->
             <div class="carousel-item active">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image1}} class="img-fluid">
-
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image2}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image3}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image4}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image5}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image6}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image7}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image8}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image9}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image10}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image11}} class="img-fluid">
             </div>
+            <!-- carousel item -->
             <div class="carousel-item">
               <h6>Description: {{selectedE4.description}}</h6>
               <img src={{selectedE4.image12}} class="img-fluid">
             </div>
           </div>
+          <!-- button for previous -->
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
+          <!-- button for next -->
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
+      <!-- modal footer -->
       <div class="modal-footer">
+        <!-- button for close -->
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>

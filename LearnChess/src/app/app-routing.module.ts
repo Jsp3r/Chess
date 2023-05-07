@@ -8,6 +8,7 @@ import { E4openingComponent } from './Components/e4opening/e4opening.component';
 import { D4openingComponent } from './Components/d4opening/d4opening.component';
 import { OthersopeningComponent } from './Components/othersopening/othersopening.component';
 import { RulesComponent } from './Components/rules/rules.component';
+import { SourcesComponent } from './Components/sources/sources.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'e4', component: E4openingComponent},
   {path: 'd4', component: D4openingComponent},
   {path: 'others', component: OthersopeningComponent},
+  {path: 'sources', component: SourcesComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 

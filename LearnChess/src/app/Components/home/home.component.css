@@ -1,18 +1,16 @@
-
-.dashcode{
-    
-}
+/* row style */
 .row{
 margin-left: 10%;
 margin-right: 10%;
 padding-top: 8%;
 
 }
+/* text alignment */
 .text{
     text-align: center;
     padding-top: 10%;
 }
-
+/* contaienr style */
 .container{
     margin-top: 8%;
     display: flex;
@@ -20,10 +18,12 @@ padding-top: 8%;
     justify-content: center;
     margin-bottom: 5%;
 }
+/* text alignment */
 h2{
     text-align: center;
     margin-bottom: 5%;
 }
+/* text alignment */
 p{
     text-align: center;
 }
