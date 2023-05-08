@@ -1,0 +1,273 @@
+<!-- container -->
+<div class="container">
+    <h3>Chess Game Rules</h3>
+
+    <h4>Nature of the Game of Chess</h4>
+        <p>The game of chess is played between two opponents who move their pieces alternately
+        on a square board called a ‘chessboard’. The player with the white pieces commences the
+        game. A player is said to ‘have the move’, when his opponent’s move has been ‘made’.
+        The objective of each player is to place the opponent’s king ‘under attack’ in such a way
+        that the opponent has no legal move. The player who achieves this goal is said to have
+        ‘checkmated’ the opponent’s king and to have won the game. Leaving one’s own king
+        under attack, exposing one’s own king to attack and also ’capturing’ the opponent’s king
+        are not allowed. The opponent whose king has been checkmated has lost the game.
+        If the position is such that neither player can possibly checkmate, the game is drawn.
+        </p>
+    <!-- row -->
+    <div class="row">
+    <h4>Initial Position of Pieces on the Chessboard</h4>
+        <!-- column -->
+        <div class="col">
+        <!-- image -->
+        <img src=".\assets\d4_openings\catalanOpening\catalan_starting position.jpg" alt="Chess Board" width="250" height="250">
+        </div>
+        <!-- column -->
+        <div class="col-md-6">
+        <p>The chessboard is composed of an 8 x 8 grid of 64 equal squares alternately light (the
+            ‘white’ squares) and dark (the ‘black’ squares). The chessboard is placed between the players 
+            in such a way that the near corner square to the right of the player is white.      
+            The eight vertical columns of squares are called ‘files’. The eight horizontal rows of squares are 
+            called ‘ranks’. A straight line of squares of the same colour, running from one
+            edge of the board to an adjacent edge, is called a ‘diagonal’. At the beginning 
+            of the game one player has 16 light-coloured pieces (the ‘white’ pieces); 
+            the other has 16 dark-coloured pieces (the ‘black’ pieces).
+        </p>
+        </div>
+    </div>
+    <br>
+    <!-- row -->
+    <div class="row">
+    <h4>Chess Pieces</h4>
+        <!-- column -->
+        <div class="col">
+        <a><i style='font-size:30px' class='fas'>&#9812;</i>A White King</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9813;</i>A White Queen</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9814;</i>Two White Rooks</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9815;</i>Two White Bishops</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9816;</i>Two White Knights</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9817;</i>Eight White Pawns</a>
+        </div>
+        <!-- column -->
+        <div class="col">
+        <a><i style='font-size:30px' class='fas'>&#9818;</i>A Black King</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9819;</i>A Black Queen</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9820;</i>Two Black Rooks</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9821;</i>Two Black Bishops</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9822;</i>Two Black Knights</a>
+        <br>
+        <a><i style='font-size:30px' class='fas'>&#9823;</i>Eight Black Pawns</a>
+         </div>
+    </div>
+    <br>
+    <h4>The Moves of the Pieces</h4>
+    <p>It is not permitted to move a piece to a square occupied by a piece of the same colour. If
+        a piece moves to a square occupied by an opponent’s piece the latter is captured and
+        removed from the chessboard as part of the same move. A piece is said to attack an
+        opponent’s piece if the piece could make a capture on that square.
+        <br>A piece is considered to attack a square, even if such a piece is constrained from moving
+        to that square because it would then leave or place the king of its own colour under
+        attack.
+    </p>
+
+    <!-- accordion for chess movement -->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              King
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/kiraly1.jpg" alt="King's Movement" width="200">
+                <p>The King is the most important piece in chess. If the king is trapped so that its capture is unavoidable, the game is over and that player loses. The king has little mobility, so it is also considered one of the weakest pieces in the game. The king can move to any adjacent square. That is, it can move one square in any direction: horizontally, vertically, or diagonally. It cannot move onto a square occupied by a piece of the same color. The king captures another piece in the same way it moves, by landing on the square of the opposing piece. There is an additional limit on the movement of the king. The king may not move to a square which would put the king under attack by an opposing piece (called in “check”). As a result of this limit, two kings may never stand next to each other - since moving next to the opposing king would put the moving king into check. The king can also be forced to move or capture if the king is under attack (“check”) and the only way to stop the attack is to move the king</p>
+                <p>The King may not move to a square:</p>
+                <!-- unordered list -->
+                <ul>
+                    <li>that is occupied by one of his own pieces,</li>
+                    <li>where it is checked by an enemy piece</li>
+                    <li>adjacent to the enemy King</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Queen
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/vezer1.jpg" alt="Queen's Movement" width="200">
+                <p>The Queen is considered the most powerful piece on the board. It can move any number of squares in a straight line - either vertically, horizontally or diagonally. The queen moves like the rook and bishop combined. Unless capturing, the queen must move to an unoccupied square; and it cannot jump over pieces. The queen captures on the same path it moves, by landing on the square of the opposing piece.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Rook
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/bastya1.jpg" alt="Rook's Movement" width="200">
+                <p>The rook moves in a straight line either horizontally or vertically through any number of unoccupied squares, until it reaches the end of board or it is blocked by another piece. It cannot jump over other pieces. The rook captures on the same path it moves, by occupying the square on which an enemy piece stands. The rook can land on any square on the board, therefore it is one of the more powerful pieces on the board.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Bishop
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/futo1.jpg" alt="Bishop's Movement" width="200">
+                <p>The Bishop moves in a straight line diagonally on the board. It can move as many squares as wanted, until it meets the end of the board or another piece. The bishop cannot jump over other pieces. The bishop captures on the same path it moves, by landing on the square of the opposing piece. Because of the way the bishop moves, the piece always remains on the same color squares it started on. Each player begins with two bishops, one on the black-colored and one on the white-colored squares. They are frequently referred to as the “dark-squared” bishop and “light-squared” bishop. The bishops can also be named according to the side they begin on - king's bishop and queen's bishop.</p>
+              </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                 Knight
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/huszar1.jpg" alt="Knights's Movement" width="200">
+                <p>The Knight is the most special piece in chess, having a flexibility that makes it a powerful piece. The knight is the only piece on the board that may jump over other pieces. The knight moves two squares horizontally or vertically and then one more square at a right-angle. The knight’s move is shaped as an “L”. The knight always lands on a square opposite in color from its initial square. The knight can jump over pieces of either color while going to its destination square, but it does not capture any pieces it jumps over. The knight captures by landing on the square of the opposing piece. The knight cannot land on a square occupied by a piece of the same color. Since the knight's movement is not in a straight line, it can attack a queen, bishop, or rook without being reciprocally attacked by that piece.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Pawn
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/gyalog1.jpg" alt="Pawn's Movement" width="200">
+                <p>The pawn is the most numerous and the least powerful piece on the chessboard. Pawns are unusual in their movement. Generally the pawn moves forward only, one square at a time. An exception is the first time a pawn is moved, it may move forward two squares. The pawn cannot jump over other pieces; any piece directly in front of a pawn blocks its advance to that square. The pawn is the only piece that cannot move backward. The pawn is also the only piece that does not capture in the same way that it moves. The pawn captures an opposing piece by moving diagonally one square - it cannot capture by moving straight ahead.
+                <br>The pawn also is involved in two special moves. The first is the en passant capture where a pawn is captured on its initial two square move. When the rule to allow a pawn to move two squares on its first move was added, a pawn could potentially evade capture by an opponent's pawn by going past a square under attack. The en passant capture (from the French for “in passing”) was added to prevent this. The capture is made exactly as if the pawn had moved only one square forward. 
+                <br>
+                </p>
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/gyalog5.jpg" alt="En Passant" width="200">
+                There are special conditions for the en passant capture:
+                <!-- unordered list -->
+                <ul>
+                    <li>A pawn must move two squares from its initial position in a single move.</li>
+                    <li>An opposing pawn must be attacking the square the first pawn moved over.</li>
+                    <li>The first pawn can be captured as if it moved only one square.</li>
+                    <li>The capture can only be made at the opponent's next move. If the capture is not made, the first pawn is safe from en passant capture for the remainder of the game.</li>
+                </ul>
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/gyalog3.jpg" alt="Promotion" width="200">
+                <p>
+                The second is the pawn promotion where a pawn is promoted to another piece when the pawn reaches the other end of the board. When a pawn has reached the other end of the board it cannot move further, since it always must move forward and not backwards. The pawn is then turned (“promoted”) into a queen, rook, bishop or knight. This promotion occurs as part of the move. Usually the piece chosen is the queen, often called “queening”. The other pieces are sometimes chosen when their movements will aid in checkmate, often called “under promoting”. The pawn can be turned into a piece even if that type of piece is still on the board. Thus you can have two queens or three rooks, bishops or knights in play at once.
+                </p>       
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                     Castling
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Castling uses the king and one rook, and is the only time in a game when more than one piece may be moved during a single turn. In castling a king is moved two squares towards the rook and the rook is then moved to the square on the other side of the king.
+                    </p>
+                    Castling has some rigid requirements:
+                    <!-- unordered list -->
+                        <ul>
+                            <li>Both the king and the rook may never have moved during the game.</li>
+                            <li>There are no pieces between the king and the rook.</li>
+                            <li>The king is not in check.</li>
+                            <li>The king does not cross over a square that is attacked by the opponent's pieces.</li>
+                            <li>The king does not end the move on a square that is attacked by the opponent's pieces. (The castling move cannot end with the king in check.)</li>
+                        </ul>
+                    <p>There are two forms of castling. One is called “kingside castling”. It is also known as “short castling”, since it is performed to the short side of the board and the rook only has to move two squares to the opposite side of the king.</p>
+                    <img src="https://docs.kde.org/trunk5/en/knights/knights/Knights-castle-kingside.png" alt="Castling" width="400">
+                    <p>The second form of castling is called “queenside castling”, where the king moves towards the square vacated by the queen. It is also known as “long castling”, since it is performed to the long side of the board and the rook has to move three squares to the opposite side of the king</p>
+                    <img src="https://docs.kde.org/trunk5/en/knights/knights/Knights-castle-queenside.png" alt="Castling" width="400">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                 Check
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="https://sakkpalota.hu/images/sakk/rulesimg/sakk1.jpg" alt="Check" width="200">
+                <p>A King is in check, when it is attacked by the opponent’s piece. The King can never be captured.</p>
+                A King must get out of the check immediately:
+                <!-- unordered list -->
+                <ul>
+                    <li>by moving the King</li>
+                    <li>by capturing the piece that gave the check</li>
+                    <li>or by blocking the check with one of the pieces of his team. This is impossible if the check was given by the Knight.</li>
+                </ul>
+                <p>If the king has no way to escape from the check, the position is called “checkmate” and the game ends. The player who is checkmated loses the game. The king is never actually captured and removed from the board.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                 Draw
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5d43501e2c7d3a2ec4bfbfe0/images/5d76ca0004286364bc8ee699/file-sZ6C5qrEiI.png" alt="Draw" width="300">
+                <p>A “draw” is a tie between the players. There are several ways that a draw can occur.</p>
+                <!-- unordered list -->
+                <ul>
+                    <li>Threefold repetition - If the exact same position is repeated at least 3 times (not necessarily by a repetition of moves). It requires that the possible moves of all the pieces of both players are the same. If the possibility of a pawn being captured en passant has changed or the possibility to castle has changed, the position is not the same - even if the pieces are in the same locations.</li>
+                    <li>Fifty-move rule - If no piece has been captured or a pawn moved in the last fifty moves by each player.</li>
+                    <li>Impossibility of checkmate - If a position arises in which neither player could possibly give checkmate by a series of legal moves. Usually this is because there is insufficient material left to checkmate, but it is possible in other positions. Combinations with insufficient material to checkmate are:</li>
+                        <!-- unordered list inside of unordered list  -->
+                        <ul>
+                            <li>king versus king</li>
+                            <li>king and bishop versus king</li>
+                            <li>king and knight versus king</li>
+                            <li>king and bishop versus king and bishop with both bishops on the same color</li>
+                        </ul>
+                    <li>Time expires - If a player's time runs out and their opponent does not have mating material.</li>
+                    <li>Mutual agreement - If both players agree to draw.</li>
+                </ul>
+                <p>Stalemate - If a player has no legal move (every possible move would put their king in check) but their king is not presently in check, the game ends in a “stalemate”. Stalemate results in the game being a draw.</p>
+                <p>If time should run out on a player before they complete the required number of moves</p>
+                <ul>
+                    <li>The player loses the game if the opponent has mating material.</li>
+                    <li>The game is a draw if the opponent does not having mating material.</li>
+                </ul>
+                <p>Mating material is considered to be any group of pieces except just a king, a king and a bishop, or a king and a knight.</p>
+              </div>
+            </div>      
+    </div>
+    <br>
+    <h4>The Completion of the Game</h4>
+    <p>The game is won by the player who has checkmated his opponent’s king. This
+        immediately ends the game, provided that the move producing the checkmate
+        position was a legal move and whose opponent declares he resigns. This
+        immediately ends the game.
+    </p>
+</div>

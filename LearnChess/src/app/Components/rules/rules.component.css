@@ -1,0 +1,14 @@
+/* tittle alignment */
+h3{
+    text-align: center;
+}
+/* text alignment */
+p{
+    text-align: justify;
+}
+/* image alignment */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

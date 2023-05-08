@@ -1,8 +1,20 @@
-/* button style */
-button{
-    color: Blue;
-}
 /* text alingment */
 .accordion-body{
     text-align: justify;
+}
+/* text alingment inside the modal body */
+.modal-body{
+    text-align: justify;
+    white-space: pre-wrap;
+}
+/* image style */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* link alignment */
+a {
+    text-align:center;
+    display:block;
 }
