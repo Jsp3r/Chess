@@ -4,7 +4,7 @@ import { Opening } from "./opening"
 export const OPENING: Opening[]=[
     {
         name: 'Alekhines',
-        description: ' ',
+        description: 'The Alekhines Defence is a defense when white plays 1.e4 as his first move. Black attacks the e4 pawn with his knight, encouraging White to advance his central pawns to chase the Knight away ',
         image0: './assets/E4 opening/alekhines_defense/alekhine_defense.jpg',
         image1: './assets/E4 opening/alekhines_defense/Alek_startingPosition.jpg',
         image2: './assets/E4 opening/alekhines_defense/Alek_Wmv1.jpg',
@@ -17,12 +17,13 @@ export const OPENING: Opening[]=[
         image9: './assets/E4 opening/alekhines_defense/Alek_Bmv4.jpg',
         image10: './assets/E4 opening/alekhines_defense/Alek_Wmv5.jpg',
         image11: './assets/E4 opening/alekhines_defense/Alek_Bmv5.jpg',
+        description2: 'after the exchange of queens, black now has a huge advantage because of whites 3 weak pawns in the center and the king lossing the right to castle',
         image12: './assets/E4 opening/alekhines_defense/alekhine_defense.jpg'
         
     },
     {
         name: 'Caro-kann',
-        description: ' ',
+        description: 'The Caro Kann Defence is a defense to counter White when he plays 1. e4. ',
         image0: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
         image1: './assets/E4 opening/Caro-kann/ckstartng_position.jpg',
         image2: './assets/E4 opening/Caro-kann/ckwhite_mv1.jpg',
@@ -35,12 +36,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/Caro-kann/ckblack_mv4.jpg',
         image10: './assets/E4 opening/Caro-kann/ckwhite_mv5.jpg',
         image11: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
+        description2:'If Black plays correctly, White probably cant achieve any substantial attack and will go into a disadvantageous position in an endgame (since Black ends up with better pawn structure).',
         image12: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg'
         
     },
     {
         name: 'French Defense',
-        description: ' ',
+        description: 'The idea behind the French Defense is that Black plays e6 to prepare to advance d7-d5, in order to immediately challenge White’s pawn on e4.',
         image0: './assets/E4 opening/French Defense/Fblackmv5.jpg',
         image1: './assets/E4 opening/French Defense/fstartng_position.jpg',
         image2: './assets/E4 opening/French Defense/Fwhitemv1.jpg',
@@ -53,12 +55,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/French Defense/Fblackmv4.jpg',
         image10: './assets/E4 opening/French Defense/Fwhitemv5.jpg',
         image11: './assets/E4 opening/French Defense/Fblackmv5.jpg',
+        description2:'after the move white moves pawn to a3 threatening blacks bishop, black can take knight on c3 and damage whites pawn structure',
         image12: './assets/E4 opening/French Defense/Fblackmv5.jpg'
         
     },
     {
         name: 'Italian Game',
-        description: ' ',
+        description: 'The Italian Game is one of the oldest openings in chess and has been around for centuries. This classical 1.e4 opening can lead to slower and positional games as well as open, tactical battles.',
         image0: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
         image1: './assets/E4 opening/italian_game/IG_starting position.jpg',
         image2: './assets/E4 opening/italian_game/IG_Wmv1.jpg',
@@ -71,12 +74,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/italian_game/IG_Bmv4.jpg',
         image10: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
         image11: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
+        description2:'after a couple of moves, the game transposes to gucco pinao variation. White aims for a slow buildup, not playing d4 immediately, but deciding to wait until he can prepare it. The battle for the center is avoided early on, but White keeps the tension in the position by exchanging pieces and playing a positional game instead.',
         image12: './assets/E4 opening/italian_game/IG_Wmv5.jpg'
         
     },
     {
         name: 'Kings Gambit',
-        description: ' ',
+        description: 'The idea behind the King’s Gambit is: White sacrifices a pawn to get counterplay and an advantage in development. Black may or may not accept the pawn sacrifice, and this changes the character of the game.',
         image0: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg',
         image1: './assets/E4 opening/kings Gambit/KG_starting position.jpg',
         image2: './assets/E4 opening/kings Gambit/KG_Wmv1.jpg',
@@ -89,12 +93,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/kings Gambit/KG_Bmv4.jpg',
         image10: './assets/E4 opening/kings Gambit/KG_Wmv5.jpg',
         image11: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg',
+        description2:'In the King’s Gambit Accepted: Classical Variation, Black plays g5 to protect the pawn on f4. This opening runs into a lot of issues for Black since White can get his Knight to e5 and force Black’s pawns to over advan',
         image12: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg'
         
     },
     {
-        name: 'Scoth Game',
-        description: ' ',
+        name: 'Scotch Game',
+        description: 'The Scotch Game is a chess opening where White tries to win center control by exchanging his d-pawn for Blacks e-pawn.',
         image0: './assets/E4 opening/scotch game/Scotch_Wmv5.jpg',
         image1: './assets/E4 opening/scotch game/Scotch_starting position.jpg',
         image2: './assets/E4 opening/scotch game/Scotch_Wmv1.jpg',
@@ -107,12 +112,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/scotch game/Scotch_Bmv4.jpg',
         image10: './assets/E4 opening/scotch game/Scotch_Wmv5.jpg',
         image11: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg',
+        description2:'White’s idea behind playing d2-d4 from early on is to achieve harmonious development and take control over the centre. It offers logical and natural development of the pieces, and many chances to grab an advantage from early on without having to memorize long lines;',
         image12: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg'
         
     },
     {
         name: 'The Scandivanian Defense',
-        description: ' ',
+        description: 'the idea for blacfk is to challenge the center right from the first move, using his Queen pawn. The only good move for White is to take this pawn. Black then has a choice between',
         image0: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg',
         image1: './assets/E4 opening/the scandinavian defense/scandinavian_starting_position.jpg',
         image2: './assets/E4 opening/the scandinavian defense/scand_White_mv1.jpg',
@@ -125,12 +131,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/the scandinavian defense/scand_black_mv4.jpg',
         image10: './assets/E4 opening/the scandinavian defense/scand_White_mv5.jpg',
         image11: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg',
+        description2:'The idea of queen to a5 is to pin whites knight to the king and continue development.',
         image12: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg'
         
     },
     {
         name: 'The Sicilian Defense',
-        description: ' ',
+        description: 'The idea behind the Sicilian Defense is: White has played e4 at the first move, trying to fight for centre since the very beginning of this open game. Black responds by moving the c-pawn, also controlling the important central d4-square and creating an asymmetrical position.',
         image0: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg',
         image1: './assets/E4 opening/the sicilian defense/starting position.jpg',
         image2: './assets/E4 opening/the sicilian defense/sicilian_whitemv1.jpg',
@@ -143,12 +150,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/E4 opening/the sicilian defense/sicilian_blackmv4.jpg',
         image10: './assets/E4 opening/the sicilian defense/sicilian_whitemv5.jpg',
         image11: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg',
+        description2:'This is the classical variation of sicilian defense. unlike in the other Sicilian main lines, Black chooses to develop the b8-Knight before the f8-Bishop. By doing so, Black puts lots of pressure in the centre and the d4-knight. As in the other lines, the resulting positions will be imbalanced and full of opportunities for both sides.',
         image12: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg'
         
     },
     {
         name: 'Catalan',
-        description: ' ',
+        description: 'The Catalan Opening is a 1.d4 opening where White seeks to combine the kingside fianchetto with pawns on d4/c4. ',
         image0: './assets/d4_openings/catalanOpening/catalan_Wmv6.jpg',
         image1: './assets/d4_openings/catalanOpening/catalan_starting position.jpg',
         image2: './assets/d4_openings/catalanOpening/catalan_Wmv1.jpg',
@@ -161,12 +169,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/catalanOpening/catalan_Bmv4.jpg',
         image10: './assets/d4_openings/catalanOpening/catalan_Wmv5.jpg',
         image11: './assets/d4_openings/catalanOpening/catalan_Bmv5.jpg',
+        description2:'Instead of a direct kingside attack, White will aim for long-term positional pressure in the center and on Blacks queenside. These positions can lead to small and nagging edges with very technical endgames.',
         image12: './assets/d4_openings/catalanOpening/catalan_Wmv6.jpg'
         
     },
     {
         name: 'Dutch Defense',
-        description: ' ',
+        description: 'The Dutch Defense is an aggressive and ambitious opening that vies for control of the e4 square. It is usually played against 1.d4 but may be played against all main White openings, except for 1.e4.',
         image0: './assets/d4_openings/dutch_defense/dutch_BMv5.jpg',
         image1: './assets/d4_openings/dutch_defense/dutch_starting position.jpg',
         image2: './assets/d4_openings/dutch_defense/dutch_Mv1.jpg',
@@ -179,12 +188,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/dutch_defense/dutch_BMv4.jpg',
         image10: './assets/d4_openings/dutch_defense/dutch_Wmv5.jpg',
         image11: './assets/d4_openings/dutch_defense/dutch_BMv5.jpg',
+        description2:'with blacks pawn formation, Black has a significant amount of space, has three pieces controlling the crucial e4 square, and obviously has a grip on the light squares. The downside to this is Black has obvious weaknesses on the dark squares.',
         image12: './assets/d4_openings/dutch_defense/dutch_BMv5.jpg'
         
     },
     {
         name: 'London System',
-        description: ' ',
+        description: 'The idea behind the London System is: White defines a scheme for development and sticks to it, virtually regardless of what Black plays.',
         image0: './assets/d4_openings/london_system/Lblack_mv5.jpg',
         image1: './assets/d4_openings/london_system/london_starting position.jpg',
         image2: './assets/d4_openings/london_system/Lwhite_mv1.jpg',
@@ -197,12 +207,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/london_system/Lblack_mv4.jpg',
         image10: './assets/d4_openings/london_system/Lwhite_mv5.jpg',
         image11: './assets/d4_openings/london_system/Lblack_mv5.jpg',
+        description2:'By retreating the bishop White can support a knight on e5 with f4. Ideally, White would like time to bring the knight on d2 to f3 too, but if Black cpatures early on e5 White has a nice central pawn wedge.',
         image12: './assets/d4_openings/london_system/Lblack_mv5.jpg'
         
     },
     {
         name: 'Queens Indian Defense',
-        description: ' ',
+        description: 'The Queens Indian Defense is a hypermodern opening for Black in response to Whites 1. d4. When coupled with the Nimzo-Indian Defense, Black gets a complete defense against Whites queens pawn openings. A solid opening, the Queens Indian is a reputable option for players who seek a "risk-free" game.',
         image0: './assets/d4_openings/QueensIndian_Defense/QI_Wm6.jpg',
         image1: './assets/d4_openings/QueensIndian_Defense/QI_starting position.jpg',
         image2: './assets/d4_openings/QueensIndian_Defense/QI_Wm1.jpg',
@@ -215,12 +226,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/QueensIndian_Defense/QI_Bm4.jpg',
         image10: './assets/d4_openings/QueensIndian_Defense/QI_Wm5.jpg',
         image11: './assets/d4_openings/QueensIndian_Defense/QI_Bm5.jpg',
+        description2:'The main battle in this chess opening revolves around control of the critical e4 and d5 squares. Black seeks to control these squares with a knight on f6 and a bishop on b7.',
         image12: './assets/d4_openings/QueensIndian_Defense/QI_Wm6.jpg'
         
     },
     {
         name: 'The Slav Defense',
-        description: ' ',
+        description: 'The Slav Defense is a solid opening for Black in response to Whites Queens Gambit (1.d4 d5 2.c4). Black fights for equality against one of Whites most popular openings without creating a bad light-squared bishop—one of the downsides of other defenses like the French Defense and the Queens Gambit Declined.',
         image0: './assets/d4_openings/the slav defense/slav_black_mv5.jpg',
         image1: './assets/d4_openings/the slav defense/slav_starting_position.jpg',
         image2: './assets/d4_openings/the slav defense/slav_WE4_mv1.jpg',
@@ -233,12 +245,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/the slav defense/slav_black_mv4.jpg',
         image10: './assets/d4_openings/the slav defense/slav_White_mv5.jpg',
         image11: './assets/d4_openings/the slav defense/slav_black_mv5.jpg',
+        description2:'In the main line of the Slav Defense, Black takes White’s pawn on c4. Since this pawn cannot be taken back immediately, this move forces White to waste a couple of moves before being able to take the pawn.In the meantime, Black’s idea is simply: he wants to bring the Bishop out of the pawn chain (namely to f5) before playing e7-e6 and castling.',
         image12: './assets/d4_openings/the slav defense/slav_black_mv5.jpg'
         
     },
     {
         name: 'The Queens Gambit',
-        description: ' ',
+        description: 'The Queens Gambit is called a Gambit because White is "sacrificing" his c-pawn in order to get a better control over the center.',
         image0: './assets/d4_openings/the_queens_gambit/QG_white_mv5_options.jpg',
         image1: './assets/d4_openings/the_queens_gambit/QG_starting_position.jpg',
         image2: './assets/d4_openings/the_queens_gambit/QG_white_mv1.jpg',
@@ -251,12 +264,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/d4_openings/the_queens_gambit/QG_black_mv3_option2.jpg',
         image10: './assets/d4_openings/the_queens_gambit/QG_white_mv5_options.jpg',
         image11: './assets/d4_openings/the_queens_gambit/QG_white_mv5_options.jpg',
+        description2:'The Queens Gambit Accepted is one of Blacks three responses to Whites Queen Gambit opening. Black chooses to accept Whites wing pawn for his center pawn With the idea being to temporarily not worry about controlling the center, but increasing mobility for his pieces.',
         image12: './assets/d4_openings/the_queens_gambit/QG_white_mv5_options.jpg'
         
     },
     {
         name: 'English',
-        description: ' ',
+        description: 'The English Opening is a flank opening where White advances their c-pawn two squares instead of the d- or e-pawns. The English is a highly transpositional opening, meaning that in many cases the game will reach the same position that arises from other openings and through different move orders.',
         image0: './assets/other/engishOpening/english_WBmv6.jpg',
         image1: './assets/other/engishOpening/english_starting position.jpg',
         image2: './assets/other/engishOpening/english_Wmv1.jpg',
@@ -269,12 +283,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/other/engishOpening/english_Bmv4.jpg',
         image10: './assets/other/engishOpening/english_Wmv5.jpg',
         image11: './assets/other/engishOpening/english_Bmv5.jpg',
+        description2:'With black copying whites move, the game has transposed to reverse english. A position where it would be difficult for both to play.',
         image12: './assets/other/engishOpening/english_WBmv6.jpg'
         
     },
     {
         name: 'Fianchetto',
-        description: ' ',
+        description: 'Sometimes called the Hungarian Opening, 1.g3 prepares to fianchetto the kings-bishop (Bg2), from which spot it will strike through the center. The delay of Nf3 leads to certain subtleties compared to the Kings Indian attack.',
         image0: './assets/other/fianchetto_Opening/fian_Wbmv6.jpg',
         image1: './assets/other/fianchetto_Opening/fian_starting position.jpg',
         image2: './assets/other/fianchetto_Opening/fian_Wmv1.jpg',
@@ -287,12 +302,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/other/fianchetto_Opening/fian_Bmv4.jpg',
         image10: './assets/other/fianchetto_Opening/fian_Wmv5.jpg',
         image11: './assets/other/fianchetto_Opening/fian_Bmv5.jpg',
+        description2:'After a couple of exchange of pieces white has a great position because black has not developed any center pieces and with white still having the center pawns which is a huge advantage.',
         image12: './assets/other/fianchetto_Opening/fian_Wbmv6.jpg'
         
     },
     {
         name: 'Nimzoswitch-larsen',
-        description: ' ',
+        description: 'The Nimzo-Larsen Attack starts with the unassuming little move, 1.b3. It also know as The Larsen Attack, The Nimzowitsch-Larsen Attack, the short 1.b3 and sometimes even the descriptive Queen’s Fianchetto Opening. White does indeed intend to fianchetto the queen’s bishop and this piece will be extremely relevant in the vast majority of White’s plans.',
         image0: './assets/other/nimzoswitch-larsen_attack/nimzo_Wmv6.jpg',
         image1: './assets/other/nimzoswitch-larsen_attack/nimzo_starting position.jpg',
         image2: './assets/other/nimzoswitch-larsen_attack/nimzo_Wmv1.jpg',
@@ -305,12 +321,13 @@ export const OPENING: Opening[]=[
         image9:  './assets/other/nimzoswitch-larsen_attack/nimzo_Bmv4.jpg',
         image10: './assets/other/nimzoswitch-larsen_attack/nimzo_Wmv5.jpg',
         image11: './assets/other/nimzoswitch-larsen_attack/nimzo_Bmv5.jpg',
+        description2:'Black needs to think very carefully how best to react to this move. After 3…Bg7 4.g5 Nh5 5.Bxg7 Nxg7 6.Qc1 the queen will replace the bishop on the long diagonal and White will quickly castle on the queenside. It will not be so easy for Black to acclimatize to such an unusual position.',
         image12: './assets/other/nimzoswitch-larsen_attack/nimzo_Wmv6.jpg'
         
     },
     {
         name: 'The Kings Indian Attack',
-        description: ' ',
+        description: 'The King’s Indian Attack is not a specific opening per se, but rather a flexible opening system for White which can be used against a variety of defenses',
         image0: './assets/other/the_kingsIndian_attack/KIA_black_mv5.jpg',
         image1: './assets/other/the_kingsIndian_attack/KIA_starting_position.jpg',
         image2: './assets/other/the_kingsIndian_attack/KIA_White_mv1.jpg',
@@ -323,6 +340,7 @@ export const OPENING: Opening[]=[
         image9:  './assets/other/the_kingsIndian_attack/KIA_black_mv4.jpg',
         image10: './assets/other/the_kingsIndian_attack/KIA_White_mv5.jpg',
         image11: './assets/other/the_kingsIndian_attack/KIA_black_mv5.jpg',
+        description2:'The King’s Indian Attack is characterized by a kingside fianchetto, pawns on d3 and e4, and knights on f3 and d2',
         image12: './assets/other/the_kingsIndian_attack/KIA_black_mv5.jpg'
         
     }

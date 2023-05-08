@@ -3,7 +3,7 @@ import { E4 } from "./e4"
 export const e4: E4[]=[
     {
         name: 'Alekhines',
-        description: ' ',
+        description: 'The Alekhines Defence is a defense when white plays 1.e4 as his first move. Black attacks the e4 pawn with his knight, encouraging White to advance his central pawns to chase the Knight away ',
         image0: './assets/E4 opening/alekhines_defense/alekhine_defense.jpg',
         image1: './assets/E4 opening/alekhines_defense/Alek_startingPosition.jpg',
         image2: './assets/E4 opening/alekhines_defense/Alek_Wmv1.jpg',
@@ -16,6 +16,7 @@ export const e4: E4[]=[
         image9: './assets/E4 opening/alekhines_defense/Alek_Bmv4.jpg',
         image10: './assets/E4 opening/alekhines_defense/Alek_Wmv5.jpg',
         image11: './assets/E4 opening/alekhines_defense/Alek_Bmv5.jpg',
+        description2: 'after the exchange of queens, black now has a huge advantage because of whites 3 weak pawns in the center and the king lossing the right to castle',
         image12: './assets/E4 opening/alekhines_defense/alekhine_defense.jpg'
         
     },
@@ -34,6 +35,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/Caro-kann/ckblack_mv4.jpg',
         image10: './assets/E4 opening/Caro-kann/ckwhite_mv5.jpg',
         image11: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg'
         
     },
@@ -52,6 +54,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/French Defense/Fblackmv4.jpg',
         image10: './assets/E4 opening/French Defense/Fwhitemv5.jpg',
         image11: './assets/E4 opening/French Defense/Fblackmv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/French Defense/Fblackmv5.jpg'
         
     },
@@ -70,6 +73,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/italian_game/IG_Bmv4.jpg',
         image10: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
         image11: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/italian_game/IG_Wmv5.jpg'
         
     },
@@ -88,6 +92,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/kings Gambit/KG_Bmv4.jpg',
         image10: './assets/E4 opening/kings Gambit/KG_Wmv5.jpg',
         image11: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg'
         
     },
@@ -106,6 +111,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/scotch game/Scotch_Bmv4.jpg',
         image10: './assets/E4 opening/scotch game/Scotch_Wmv5.jpg',
         image11: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg'
         
     },
@@ -124,6 +130,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/the scandinavian defense/scand_black_mv4.jpg',
         image10: './assets/E4 opening/the scandinavian defense/scand_White_mv5.jpg',
         image11: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg'
         
     },
@@ -142,6 +149,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/the sicilian defense/sicilian_blackmv4.jpg',
         image10: './assets/E4 opening/the sicilian defense/sicilian_whitemv5.jpg',
         image11: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg',
+        description2:'',
         image12: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg'
         
     }
