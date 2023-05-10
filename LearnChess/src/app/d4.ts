@@ -13,5 +13,6 @@ export interface D4{
     image9: string;
     image10: string;
     image11: string;
+    description2: string;
     image12: string;
 }

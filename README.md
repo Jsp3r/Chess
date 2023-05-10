@@ -9,6 +9,9 @@ Property binding
 <br>
 Interface
 <br>
+Two way binding - edit
+<br>
+
 
 Navbar - completed
 <br>
@@ -19,6 +22,8 @@ Opening - template with assets but has no description yet
 Strategy - completed template with data
 <br>
 About - completed
+<br>
+Practice
 <br>
 Rules - completed
 <br>

@@ -1,0 +1,86 @@
+<!-- table -->
+<table class="table">
+    <!-- table head -->
+    <thead>
+        <!-- table row -->
+      <tr>
+        <th scope="col"> Image</th>
+        <th scope="col"> Name</th>
+        <th scope="col"> Move</th>
+        <th scope="col"> Action </th>
+    
+      </tr>
+    </thead>
+    <tbody>
+     <tr *ngFor="let practice of practice">
+      <th scope="row"><img src="{{practice.image}}" width="200"></th>
+        <td>{{practice.name}}</td>
+        <td>{{practice.move}}</td>
+      <td>
+        <!-- button for modal -->
+        <a type="button" class="btn btn-outline-primary" (click)="onselect(practice)" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</a>
+        </td>
+    </tr>
+    </tbody>
+  
+  </table>
+
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" *ngIf="selectedPractice">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- modal body -->
+        <div class="modal-body">
+            <div class="row g-3" *ngIf="selectedPractice">
+            <div class="col-sm-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" [(ngModel)]="selectedPractice.name" required>
+            </div>
+            <div class="col-sm-6">
+                <label for="name" class="form-label">Move</label>
+                <input type="text" class="form-control" id="move" [(ngModel)]="selectedPractice.move" required>
+            </div>
+<!--
+            <div class="col-sm-3">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" class="form-control" id="description" [(ngModel)]="selectedCategory.description" required>
+            </div>
+
+            <div class="col-sm-3">
+                <label for="sex" class="form-label">Sex</label>
+                <input type="text" class="form-control" id="sex" [(ngModel)]="selectedCategory.sex" required>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="supplier" class="form-label">Supplier</label>
+                <input type="text" class="form-control" id="supplier" [(ngModel)]="selectedCategory.supplier" required>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="categorycode" class="form-label">Category Code</label>
+                <input type="text" class="form-control" id="categorycode" [(ngModel)]="selectedCategory.categorycode" required>
+            </div>
+        </div>
+
+        </div>
+        <!-- modal footer -->
+        <div class="modal-footer">
+            <!-- close button for modal -->
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+

@@ -16,13 +16,13 @@ export const e4: E4[]=[
         image9: './assets/E4 opening/alekhines_defense/Alek_Bmv4.jpg',
         image10: './assets/E4 opening/alekhines_defense/Alek_Wmv5.jpg',
         image11: './assets/E4 opening/alekhines_defense/Alek_Bmv5.jpg',
-        description2: 'after the exchange of queens, black now has a huge advantage because of whites 3 weak pawns in the center and the king lossing the right to castle',
+        description2: 'After the exchange of queens, black now has a huge advantage because of whites 3 weak pawns in the center and the king lossing the right to castle.',
         image12: './assets/E4 opening/alekhines_defense/alekhine_defense.jpg'
         
     },
     {
         name: 'Caro-kann',
-        description: ' ',
+        description: 'The Caro Kann Defence is a defense to counter White when he plays 1. e4. ',
         image0: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
         image1: './assets/E4 opening/Caro-kann/ckstartng_position.jpg',
         image2: './assets/E4 opening/Caro-kann/ckwhite_mv1.jpg',
@@ -35,13 +35,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/Caro-kann/ckblack_mv4.jpg',
         image10: './assets/E4 opening/Caro-kann/ckwhite_mv5.jpg',
         image11: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg',
-        description2:'',
+        description2:'If Black plays correctly, White probably cant achieve any substantial attack and will go into a disadvantageous position in an endgame (since Black ends up with better pawn structure).',
         image12: './assets/E4 opening/Caro-kann/ckblack_mv5.jpg'
         
     },
     {
         name: 'French Defense',
-        description: ' ',
+        description: 'The idea behind the French Defense is that Black plays e6 to prepare to advance d7-d5, in order to immediately challenge White’s pawn on e4.',
         image0: './assets/E4 opening/French Defense/Fblackmv5.jpg',
         image1: './assets/E4 opening/French Defense/fstartng_position.jpg',
         image2: './assets/E4 opening/French Defense/Fwhitemv1.jpg',
@@ -54,13 +54,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/French Defense/Fblackmv4.jpg',
         image10: './assets/E4 opening/French Defense/Fwhitemv5.jpg',
         image11: './assets/E4 opening/French Defense/Fblackmv5.jpg',
-        description2:'',
+        description2:'After the move white moves pawn to a3 threatening blacks bishop, black can take knight on c3 and damage whites pawn structure.',
         image12: './assets/E4 opening/French Defense/Fblackmv5.jpg'
         
     },
     {
         name: 'Italian Game',
-        description: ' ',
+        description: 'The Italian Game is one of the oldest openings in chess and has been around for centuries. This classical 1.e4 opening can lead to slower and positional games as well as open, tactical battles.',
         image0: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
         image1: './assets/E4 opening/italian_game/IG_starting position.jpg',
         image2: './assets/E4 opening/italian_game/IG_Wmv1.jpg',
@@ -73,13 +73,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/italian_game/IG_Bmv4.jpg',
         image10: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
         image11: './assets/E4 opening/italian_game/IG_Wmv5.jpg',
-        description2:'',
+        description2:'After a couple of moves, the game transposes to gucco pinao variation. White aims for a slow buildup, not playing d4 immediately, but deciding to wait until he can prepare it. The battle for the center is avoided early on, but White keeps the tension in the position by exchanging pieces and playing a positional game instead.',
         image12: './assets/E4 opening/italian_game/IG_Wmv5.jpg'
         
     },
     {
         name: 'Kings Gambit',
-        description: ' ',
+        description: 'The idea behind the King’s Gambit is: White sacrifices a pawn to get counterplay and an advantage in development. Black may or may not accept the pawn sacrifice, and this changes the character of the game.',
         image0: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg',
         image1: './assets/E4 opening/kings Gambit/KG_starting position.jpg',
         image2: './assets/E4 opening/kings Gambit/KG_Wmv1.jpg',
@@ -92,13 +92,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/kings Gambit/KG_Bmv4.jpg',
         image10: './assets/E4 opening/kings Gambit/KG_Wmv5.jpg',
         image11: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg',
-        description2:'',
+        description2:'In the King’s Gambit Accepted: Classical Variation, Black plays g5 to protect the pawn on f4. This opening runs into a lot of issues for Black since White can get his Knight to e5 and force Black’s pawns to over advance.',
         image12: './assets/E4 opening/kings Gambit/KG_Bmv5.jpg'
         
     },
     {
         name: 'Scoth Game',
-        description: ' ',
+        description: 'The Scotch Game is a chess opening where White tries to win center control by exchanging his d-pawn for Blacks e-pawn.',
         image0: './assets/E4 opening/scotch game/Scotch_Wmv5.jpg',
         image1: './assets/E4 opening/scotch game/Scotch_starting position.jpg',
         image2: './assets/E4 opening/scotch game/Scotch_Wmv1.jpg',
@@ -111,13 +111,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/scotch game/Scotch_Bmv4.jpg',
         image10: './assets/E4 opening/scotch game/Scotch_Wmv5.jpg',
         image11: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg',
-        description2:'',
+        description2:'White’s idea behind playing d2-d4 from early on is to achieve harmonious development and take control over the centre. It offers logical and natural development of the pieces, and many chances to grab an advantage from early on without having to memorize long lines.',
         image12: './assets/E4 opening/scotch game/Scotch_Bmv5.jpg'
         
     },
     {
         name: 'The Scandivanian Defense',
-        description: ' ',
+        description: 'The idea for blacfk is to challenge the center right from the first move, using his Queen pawn. The only good move for White is to take this pawn. Black then has a choice between.',
         image0: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg',
         image1: './assets/E4 opening/the scandinavian defense/scandinavian_starting_position.jpg',
         image2: './assets/E4 opening/the scandinavian defense/scand_White_mv1.jpg',
@@ -130,13 +130,13 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/the scandinavian defense/scand_black_mv4.jpg',
         image10: './assets/E4 opening/the scandinavian defense/scand_White_mv5.jpg',
         image11: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg',
-        description2:'',
+        description2:'The idea of queen to a5 is to pin whites knight to the king and continue development.',
         image12: './assets/E4 opening/the scandinavian defense/scand_black_mv5.jpg'
         
     },
     {
         name: 'The Sicilian Defense',
-        description: ' ',
+        description: 'The idea behind the Sicilian Defense is: White has played e4 at the first move, trying to fight for centre since the very beginning of this open game. Black responds by moving the c-pawn, also controlling the important central d4-square and creating an asymmetrical position.',
         image0: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg',
         image1: './assets/E4 opening/the sicilian defense/starting position.jpg',
         image2: './assets/E4 opening/the sicilian defense/sicilian_whitemv1.jpg',
@@ -149,7 +149,7 @@ export const e4: E4[]=[
         image9:  './assets/E4 opening/the sicilian defense/sicilian_blackmv4.jpg',
         image10: './assets/E4 opening/the sicilian defense/sicilian_whitemv5.jpg',
         image11: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg',
-        description2:'',
+        description2:'This is the classical variation of sicilian defense. unlike in the other Sicilian main lines, Black chooses to develop the b8-Knight before the f8-Bishop. By doing so, Black puts lots of pressure in the centre and the d4-knight. As in the other lines, the resulting positions will be imbalanced and full of opportunities for both sides.',
         image12: './assets/E4 opening/the sicilian defense/sicilian_blackmv5.jpg'
         
     }
