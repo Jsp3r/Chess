@@ -16,6 +16,7 @@ import { D4openingComponent } from './Components/d4opening/d4opening.component';
 import { OthersopeningComponent } from './Components/othersopening/othersopening.component';
 import { RulesComponent } from './Components/rules/rules.component';
 import { SourcesComponent } from './Components/sources/sources.component';
+import { PracticeComponent } from './Components/practice/practice.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { SourcesComponent } from './Components/sources/sources.component';
     OthersopeningComponent,
     RulesComponent,
     SourcesComponent,
+    PracticeComponent,
   ],
   imports: [
     BrowserModule,
