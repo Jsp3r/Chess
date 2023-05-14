@@ -1,4 +1,7 @@
 /* nav style */
+.fant{
+    font-family: fantasy;
+}
 .container-fluid{
     padding: 0rem 3rem;
 }

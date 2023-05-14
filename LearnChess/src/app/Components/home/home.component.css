@@ -1,27 +1,36 @@
 /* row style */
+*{
+    font-family: monospace;
+}
+.dashcode{
+    padding: 80px 0;
+    background-color: #ffffff;
+}
 .row{
-margin-left: 10%;
-margin-right: 10%;
-padding-top: 8%;
-
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 /* text alignment */
 .text{
+    background-image: url("https://digital-game-technology-2021.imgix.net/media/Products/Non-Electronic-Chess/DGT-Timeless-Wooden-Chess-Pieces-670x646.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=500&ixlib=php-3.3.1&q=82&w=615") ;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
+    text-shadow: 2px 2px 5px rgb(141, 200, 239);
+    
+    
 }
 /* contaienr style */
-.container{
+.container2{
     margin-top: 8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 10%;
     margin-bottom: 5%;
 }
 /* text alignment */
 h2{
+    padding-top: 10%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 /* text alignment */
 p{
