@@ -36,3 +36,9 @@ h2{
 p{
     text-align: center;
 }
+/* image style */
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
