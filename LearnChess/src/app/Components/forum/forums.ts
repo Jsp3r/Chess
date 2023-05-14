@@ -23,7 +23,7 @@ export const FORUM:ForumMain[]=[
     },
     {
         id: 5,
-        question: 'What is the coutner of Ruy Lopez?',
+        question: 'What is the counter of Ruy Lopez?',
         answer: ''
     }
 ]
