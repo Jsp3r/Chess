@@ -10,7 +10,7 @@ import { OthersopeningComponent } from './Components/othersopening/othersopening
 import { RulesComponent } from './Components/rules/rules.component';
 import { SourcesComponent } from './Components/sources/sources.component';
 import { PracticeComponent } from './Components/practice/practice.component';
-
+import { SelectivePreloadingStrategyService } from './selective-preloading-strategy.service';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -27,7 +27,15 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(
+       routes,
+        {
+            enableTracing: false, //for debugging
+            preloadingStrategy: SelectivePreloadingStrategyService,
+        }
+    )
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
