@@ -18,6 +18,14 @@ import { RulesComponent } from './Components/rules/rules.component';
 import { SourcesComponent } from './Components/sources/sources.component';
 import { PracticeComponent } from './Components/practice/practice.component';
 
+
+import {HttpClientModule} from '@angular/common/http';
+import {HttpClientInMemoryWebApiModule}from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './in-memory-data.service';
+
+import { ForumModule } from './Components/forum/forum.module';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +47,9 @@ import { PracticeComponent } from './Components/practice/practice.component';
     FormsModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
+    HttpClientModule,
+    ForumModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService,{dataEncapsulation:false}),
   ],
   providers: [],
   bootstrap: [AppComponent]

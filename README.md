@@ -9,8 +9,11 @@ Property binding
 <br>
 Interface
 <br>
-Two way binding - edit
+Two way binding - edit, add, delete
 <br>
+HTTP Request
+<br>
+CRUD HTTPClient
 
 
 Navbar - completed
@@ -24,6 +27,8 @@ Strategy - completed template with data
 About - completed
 <br>
 Practice
+<br>
+Forum
 <br>
 Rules - completed
 <br>
