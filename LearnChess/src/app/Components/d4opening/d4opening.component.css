@@ -21,3 +21,6 @@ a{
 h6{
     text-align: justify;
 }
+*{
+    font-family: monospace;
+}

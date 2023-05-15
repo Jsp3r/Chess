@@ -21,3 +21,9 @@ a{
 h6{
     text-align: justify;
 }
+*{
+    font-family: monospace;
+}
+.nav{
+    background-color: rgb(176, 40, 40);
+}
