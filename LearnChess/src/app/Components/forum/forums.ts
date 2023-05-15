@@ -3,12 +3,12 @@ import{ForumMain} from"./forum";
 export const FORUM:ForumMain[]=[
     {
         id: 1,
-        question: 'Is Sicilian A bad opening?',
+        question: 'how to become a GM?',
         answer: ''
     },
     {
         id: 2,
-        question: 'What is the Best Move?',
+        question: 'Who is the current world chess champion?',
         answer: ''
     },
     {
