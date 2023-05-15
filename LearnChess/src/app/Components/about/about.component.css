@@ -33,25 +33,28 @@
     display: block;
     margin: 0 auto;
   }
+  /* container */
   .container2{
     display: flex;
     align-items: center;
     justify-content: center;
     
   }
+  /* header style */
   .header{
     text-align: center;
-    background-color: black;
-    color: #ffffff;
     margin-bottom: 5%;
   }
+  /* image profile style */
   .devs{
     border-radius: 100%;
     width: 100%;
     max-width: 500px;
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+  /* text style */
   .student{
     text-align: center;
   }
