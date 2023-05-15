@@ -44,6 +44,8 @@
   .header{
     text-align: center;
     margin-bottom: 5%;
+    background-color: black;
+    color: #ffffff;
   }
   /* image profile style */
   .devs{
@@ -53,6 +55,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
   }
   /* text style */
   .student{
