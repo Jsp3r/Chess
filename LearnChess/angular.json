@@ -31,7 +31,7 @@
             "scripts": [
               "./node_modules/@popperjs/core/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/jquery/dist/jquery.min.js"          
+              "./node_modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {
@@ -98,14 +98,21 @@
             "scripts": [
               "./node_modules/@popperjs/core/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/jquery/dist/jquery.min.js"          
+              "./node_modules/jquery/dist/jquery.min.js"
             ]
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "LearnChess:build:production",
+            "firebaseProject": "learnchess-d200c",
+            "firebaseHostingSite": "learnchess-d200c"
           }
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "8f047ca0-3f9a-4efa-9a80-0de0ee51d238"
   }
 }

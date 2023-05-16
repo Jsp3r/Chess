@@ -9,7 +9,7 @@ export const PRACTICE: Practice[]=[
     },
     {
         name: 'French Defense',
-        image: './assets/E4 opening/French Defense/Fwhitemv3.jpg',
+        image: './assets/E4 opening/french defense/Fblackmv5.jpg',
         move: 'e5'
     },
     {

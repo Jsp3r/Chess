@@ -21,7 +21,16 @@ a{
 h6{
     text-align: justify;
 }
+/* font-family style */
 *{
     font-family: monospace;
+}
+/* card body alignment */
+.card-body{
+    text-align: center;
+}
+/* card footer alignment */
+.card-footer{
+    text-align: center;
 }
 

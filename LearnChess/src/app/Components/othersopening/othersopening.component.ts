@@ -14,3 +14,4 @@ export class OthersopeningComponent {
     this.selectedOthers = others;
 }
 }
+

@@ -1,55 +1,54 @@
+<!-- container -->
 <div class="container">
 
-  <!-- row -->
-  <div class="row">
-    <div class="col-md-3 mx-auto my-3" *ngFor="let strategy of strategy">
-    <!-- card -->
-    <mdb-card>
-      <mdb-card-img [src]="strategy.image"></mdb-card-img>
-      <mdb-card-body>
-        <mdb-card-title>
-          <h6>{{strategy.name}}</h6>
-        </mdb-card-title>
-
-        <mdb-card-text>
-
-        </mdb-card-text>
-
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-outline-secondary" (click)="onselect(strategy)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Read
-        </button>
-
-      </mdb-card-body>
-    </mdb-card>
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <!-- modal content -->
-        <div class="modal-content" *ngIf="selectedStrategy">
-          <!-- modal header -->
-          <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedStrategy.name}}</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- row -->
+    <div class="row">
+        <!-- column -->
+      <div class="col-md-4 mx-auto my-3" *ngFor="let strategy of strategy">
+        <!-- card body -->
+        <div class="card-body">
+            <img src="{{strategy.image}}" width="230">
+        </div>
+        <!-- card body -->
+        <div class="card-body">
+           {{strategy.name}}
+        </div>
+        <!-- card footer -->
+        <div class="card-footer">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-secondary" (click)="onselect(strategy)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Read
+          </button>
           </div>
-        <!-- modal body -->
-        <div class="modal-body">
-          <img src="{{selectedStrategy.image}}" width="225">
-          <strong>{{selectedStrategy.keypoint}}</strong>
-          <br>
-          {{selectedStrategy.description}}
-          <br>
-          <a href="{{selectedStrategy.link}}" target="_blank">Detailed Explanation</a>    
-          </div>
-          <!-- modal footer -->
-            <div class="modal-footer">
-              <!-- button for close -->
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <!-- modal content -->
+          <div class="modal-content" *ngIf="selectedStrategy">
+            <!-- modal header -->
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedStrategy.name}}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          <!-- modal body -->
+          <div class="modal-body">
+            <img src="{{selectedStrategy.image}}" width="225">
+            <strong>{{selectedStrategy.keypoint}}</strong>
+            <br>
+            {{selectedStrategy.description}}
+            <br>
+            <a href="{{selectedStrategy.link}}" target="_blank">Detailed Explanation</a>    
+            </div>
+            <!-- modal footer -->
+              <div class="modal-footer">
+                <!-- button for close -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-    
+
+      

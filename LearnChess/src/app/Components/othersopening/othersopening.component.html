@@ -1,3 +1,4 @@
+<!-- container -->
 <div class="container">
 
     <!--nav tablist  -->
@@ -23,28 +24,27 @@
         <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"></div>
       </div>
 
-<!-- row -->
-<div class="row">
-    <div class="col-md-3 mx-auto my-5" *ngFor="let others of others">
-      <!-- card -->
-      <mdb-card>
-        <mdb-card-img [src]="others.image0"></mdb-card-img>
-        <mdb-card-body>
-          <mdb-card-title>
-            <h6>{{others.name}}</h6>
-          </mdb-card-title>
-  
-          <mdb-card-text>
-  
-          </mdb-card-text>
-  
+
+    <!-- row -->
+    <div class="row">
+        <!-- column -->
+      <div class="col-md-4 mx-auto my-3" *ngFor="let others of others">
+        <!-- card body -->
+        <div class="card-body">
+            <img src="{{others.image0}}" width="230">
+        </div>
+        <!-- card body -->
+        <div class="card-body">
+            {{others.name}}
+        </div>
+        <!-- card footer -->
+        <div class="card-footer">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-secondary" (click)="onselect(others)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          View
-          </button>
-  
-      </mdb-card-body>
-    </mdb-card>
+            View
+            </button>
+          </div>
+
       <!-- Modal -->
       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
