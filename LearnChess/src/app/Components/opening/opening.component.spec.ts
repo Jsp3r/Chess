@@ -6,12 +6,10 @@ describe('OpeningComponent', () => {
   let component: OpeningComponent;
   let fixture: ComponentFixture<OpeningComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ OpeningComponent ]
-    })
-    .compileComponents();
-
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [OpeningComponent]
+    });
     fixture = TestBed.createComponent(OpeningComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

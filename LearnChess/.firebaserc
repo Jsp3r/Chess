@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "learnchess-d200c"
+  },
+  "targets": {
+    "learnchess-d200c": {
+      "hosting": {
+        "LearnChess": [
+          "learnchess-d200c"
+        ]
+      }
+    }
+  }
+}

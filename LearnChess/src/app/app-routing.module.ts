@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { HomeComponent } from './Components/home/home.component';
 import { OpeningComponent } from './Components/opening/opening.component';
 import { StrategyComponent } from './Components/strategy/strategy.component';

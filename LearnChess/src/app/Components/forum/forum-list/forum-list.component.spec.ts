@@ -6,12 +6,10 @@ describe('ForumListComponent', () => {
   let component: ForumListComponent;
   let fixture: ComponentFixture<ForumListComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ ForumListComponent ]
-    })
-    .compileComponents();
-
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [ForumListComponent]
+    });
     fixture = TestBed.createComponent(ForumListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

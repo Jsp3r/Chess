@@ -1,63 +1,64 @@
 /* alignment and background colo */
 *{
-  font-family: monospace;
-}
-.about-us {
-    padding: 80px 0;
-    background-color: #f5f5f5;
+    font-family: monospace;
   }
-/* container style */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    padding-bottom: 2%;
-  }
-  /*title style  */
-  .section-title {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  /*style for the paragraph*/
-  .desc{
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-  /*image styles*/
-  .about-us-image {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 0 auto;
-  }
-  /* container */
-  .container2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  /* header style */
-  .header{
-    text-align: center;
-    margin-bottom: 5%;
-    background-color: black;
-    color: #ffffff;
-  }
-  /* image profile style */
-  .devs{
-    border-radius: 100%;
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-  /* text style */
-  .student{
-    text-align: center;
-  }
+  .about-us {
+      padding: 80px 0;
+      background-color: #f5f5f5;
+    }
+  /* container style */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      padding-bottom: 2%;
+    }
+    /*title style  */
+    .section-title {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    /*style for the paragraph*/
+    .desc{
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+    /*image styles*/
+    .about-us-image {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+    /* container */
+    .container2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    /* header style */
+    .header{
+      text-align: center;
+      margin-bottom: 5%;
+      background-color: black;
+      color: #ffffff;
+    }
+    /* image profile style */
+    .devs{
+      border-radius: 100%;
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
+    }
+    /* text style */
+    .student{
+      text-align: center;
+    }
+  

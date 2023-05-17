@@ -1,145 +1,142 @@
 <div class="container">
 
-<!--nav tablist  -->
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item text">
-    <a class="nav-link" id="pills-home-tab" data-toggle="pill" routerLink="/opening" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" routerLink="/e4" role="tab" aria-controls="pills-e4" aria-selected="false">E4</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/d4" role="tab" aria-controls="pills-d4" aria-selected="false">D4</a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/others" role="tab" aria-controls="pills-others" aria-selected="false">Others</a>
-  </li>
-</ul>
-<!-- tab content -->
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"></div>
-  <div class="tab-pane fade" id="pills-e4" role="tabpanel" aria-labelledby="pills-e4-tab"></div>
-  <div class="tab-pane fade" id="pills-d4" role="tabpanel" aria-labelledby="pills-d4-tab"></div>
-  <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"></div>
-</div>
-
-<!-- row -->
-  <div class="row">
-    <div class="col-md-3 mx-auto my-5" *ngFor="let opening of opening">
-      <!-- card -->
-      <mdb-card>
-        <mdb-card-img [src]="opening.image0"></mdb-card-img>
-        <mdb-card-body>
-          <mdb-card-title>
-            <h6>{{opening.name}}</h6>
-          </mdb-card-title>
-
-          <mdb-card-text>
-
-          </mdb-card-text>
-
-
+    <!--nav tablist  -->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item text">
+        <a class="nav-link" id="pills-home-tab" data-toggle="pill" routerLink="/opening" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" routerLink="/e4" role="tab" aria-controls="pills-e4" aria-selected="false">E4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/d4" role="tab" aria-controls="pills-d4" aria-selected="false">D4</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" routerLink="/others" role="tab" aria-controls="pills-others" aria-selected="false">Others</a>
+      </li>
+    </ul>
+    <!-- tab content -->
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"></div>
+      <div class="tab-pane fade" id="pills-e4" role="tabpanel" aria-labelledby="pills-e4-tab"></div>
+      <div class="tab-pane fade" id="pills-d4" role="tabpanel" aria-labelledby="pills-d4-tab"></div>
+      <div class="tab-pane fade" id="pills-others" role="tabpanel" aria-labelledby="pills-others-tab"></div>
+    </div>
+ 
+    <!-- row -->
+    <div class="row">
+        <!-- column -->
+      <div class="col-md-4 mx-auto my-3" *ngFor="let opening of opening">
+        <!-- card body -->
+        <div class="card-body">
+            <img src="{{opening.image0}}" width="230">
+        </div>
+        <!-- card body -->
+        <div class="card-body">
+            {{opening.name}}
+        </div>
+        <!-- card footer -->
+        <div class="card-footer">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-secondary" (click)="onselect(opening)" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        View
-        </button>
+            View
+            </button>
+          </div>
 
-        </mdb-card-body>
-      </mdb-card>
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <!-- modal content -->
-          <div class="modal-content" *ngIf="selectedOpening">
-            <!-- modal header -->
-            <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedOpening.name}}</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-          <!-- modal body -->
-          <div class="modal-body">
-        
-        
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-inner">
-            <!-- carousel item -->
-            <div class="carousel-item active">
-              <h6>{{selectedOpening.description}}</h6>
-              <img src={{selectedOpening.image1}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image2}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image3}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image4}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image5}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image6}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image7}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image8}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image9}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image10}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
-              <img src={{selectedOpening.image11}} class="img-fluid">
-            </div>
-            <!-- carousel item -->
-            <div class="carousel-item">
-              <h6>{{selectedOpening.description2}}</h6>
-              <img src={{selectedOpening.image12}} class="img-fluid">
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <!-- modal content -->
+              <div class="modal-content" *ngIf="selectedOpening">
+                <!-- modal header -->
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">{{selectedOpening.name}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              <!-- modal body -->
+              <div class="modal-body">
+            
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-inner">
+                <!-- carousel item -->
+                <div class="carousel-item active">
+                  <h6>{{selectedOpening.description}}</h6>
+                  <img src={{selectedOpening.image1}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image2}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image3}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image4}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image5}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image6}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image7}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image8}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image9}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image10}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <!-- <h6>Description: {{selectedOpening.description}}</h6> -->
+                  <img src={{selectedOpening.image11}} class="img-fluid">
+                </div>
+                <!-- carousel item -->
+                <div class="carousel-item">
+                  <h6>{{selectedOpening.description2}}</h6>
+                  <img src={{selectedOpening.image12}} class="img-fluid">
+                </div>
+              </div>
+              <!-- button for previous -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <!-- button for next -->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-          <!-- button for previous -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <!-- button for next -->
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <!-- modal footer -->
+          <div class="modal-footer">
+            <!-- button for close -->
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
-      <!-- modal footer -->
-      <div class="modal-footer">
-        <!-- button for close -->
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div>
-</div>
